@@ -6,6 +6,7 @@ app = Flask(__name__)
 def start():
     return "First page of REST API"
 
+
 @app.get("/api")
 def get_room():
     return "Inside the room"
