@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def start():
-    return "First page of REST API"
+    return "Welcome to TAJ residency"
 
 
 @app.get("/api")
